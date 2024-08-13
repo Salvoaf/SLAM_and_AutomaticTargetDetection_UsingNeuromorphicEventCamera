@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/salvatore/ros_ws/devel/.private/hello_world/setup.sh

@@ -1,0 +1,6 @@
+devel_space: /home/salvatore/ros_ws/devel
+install: false
+install_space: /home/salvatore/ros_ws/install
+profile: default
+source_space: /home/salvatore/ros_ws/src
+workspace: /home/salvatore/ros_ws

@@ -1,0 +1,9 @@
+float64 timestamp
+int32 x_offset
+int32 y_offset
+int32 height
+int32 width
+bool do_rectify
+int32 class_id
+float32 class_confidence
+int32 track_id

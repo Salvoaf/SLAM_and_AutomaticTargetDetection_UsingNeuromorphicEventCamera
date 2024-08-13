@@ -1,0 +1,14 @@
+<launch>
+    <node name="bag_to_h5_node" pkg="hello_world" type="bag_to_h5_node.py" output="screen">
+        <param name="topic" value="/dvs/events" />
+        <param name="txt_dir" value="/home/salvatore/ssms_event_cameras/dataset/val/" />
+    </node>
+
+    <node name="bounding_box_publisher" pkg="hello_world" type="bounding_box_publisher.py" output="screen">
+        <param name="predictions_file_path" value="/home/salvatore/ssms_event_cameras/poses/predictions.csv" />
+    </node>
+
+    
+    <node name="sync_node" pkg="hello_world" type="sync_nod.py" output="screen"></node>
+        
+</launch>
